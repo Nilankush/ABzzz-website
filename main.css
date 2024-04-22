@@ -1,0 +1,137 @@
+.abzzz-fixed-box{
+    display:flex;
+    justify-content: center;
+}
+.abzzz-fixed-text {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    position: fixed;
+    top: 9vw;
+    font-size: 2vw;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    color: black;
+    border-radius: 140px;
+    z-index: 100;
+    white-space: nowrap;
+    animation-name: sliding-fadein;
+    animation-duration: 1s;
+  
+}
+.abzzz-fixed-text span {
+    font-size: 11vw;
+    font-weight: 100;
+
+}
+.scrolling-page-pic1 {
+    width: 100%;
+    position: relative;
+    margin: 0;
+}
+.watermark1 {
+    position: absolute;
+    bottom: 6vw;
+    right: 4vw;
+    color: white;
+    font-size: 1.5vw;
+    font-weight: 700;
+}
+.web-of-fame{
+    background-color: beige;
+    padding-top: 2vw;
+    margin-top: -0.5vw;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    z-index: 300;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.web-of-fame h1 {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 2.1vw;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 1vw;
+}
+.arrow-head{
+    position: absolute;
+    right: 3vw;
+    top: 2.5vw;
+    font-size: 2.5vw;
+    animation-name: arrowhead;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    color: rgb(0, 0, 46);
+}
+.web-of-fame h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vw;
+    font-size: 1.5vw;
+}
+.wall {
+    width: 95vw;
+    display: flex;
+    flex-direction: row;
+    margin-top: 4vw;
+    margin-bottom: 6vw;
+    overflow-x: scroll;
+    padding-left: 1vw;
+    padding-bottom: 4vw;
+    padding-top: 3vw;
+}
+.wall::-webkit-scrollbar{
+    height: 1vw;
+}
+.wall::-webkit-scrollbar-track {
+    background-color: rgb(0, 0, 46); 
+    border-radius: 100vw;
+}
+.wall::-webkit-scrollbar-thumb{
+    background-color: beige;
+    border-radius: 100vw;
+    border: 0.2vw solid black;
+}
+.blank-space{
+    font-size: .1vw;
+    width:30vw;
+    color: beige;
+    margin-left: 16.5vw;
+}
+.web-of-fame img {
+    object-fit: cover;
+    width: 6vw;
+    height: 20vw;
+    margin-right: 7.5vw;
+    box-shadow: 0vw 0vw 0.7vw rgb(0, 0, 0);
+    border: none;
+    border-radius: 4vw;
+    cursor: all-scroll;
+    margin-bottom: 30px;
+    transition: 0.2s;
+}
+.web-of-fame img:hover{
+    object-fit: cover;
+    width: 32vw;
+
+}
+.end{
+    display: flex;
+    flex-direction: column;
+}
+.end pre{
+    display: flex;
+    justify-content: center;
+    line-height: 6vw;
+    font-size: 1.5vw;
+}

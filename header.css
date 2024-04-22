@@ -1,0 +1,75 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 0, 46);
+    height: 4vw;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 500;
+}
+.left-section {
+    padding-top: 1vw;
+    font-size: 1.2vw;
+    margin: 1vw;
+    width: 7.5vw;
+    height: 1vw;
+    color: white;
+    border-width: 0.1vw;
+    border-color: white;
+    border-style: solid;
+    border-radius: 4px;
+}
+.AB-text{
+    font-size: 1.7vw;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.left-section div {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 2vw;
+    line-height: 0vw;
+    font-style: italic;
+}
+
+.middle-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9vw;
+    min-width: 40vw;
+}
+.middle-text {
+    color: white;
+    cursor: pointer;
+}
+.middle-text:hover {
+    font-weight: 600;
+}
+.right-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 15vw;
+    align-items: center;
+}
+.right-section a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 0.9vw;
+    color: white;
+    background-color: rgb(0, 0, 46);
+    border-width: 0.1vw;
+    border-style: solid;
+    border-color: white;
+    padding: 0.3vw 0.5vw;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.right-section a:hover {
+    transform: scale(1.2);
+}

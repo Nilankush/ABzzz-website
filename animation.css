@@ -1,0 +1,7 @@
+@keyframes sliding-fadein{
+    from {translate: 60vw;}
+    0%{opacity: 0;}
+}
+@keyframes arrowhead{
+    50% {transform: scale(1.3);}
+}
