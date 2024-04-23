@@ -42,7 +42,7 @@
     font-weight: 700;
 }
 .web-of-fame{
-    background-color: beige;
+    background-color: white;
     padding-top: 2vw;
     margin-top: -0.5vw;
     display: flex;
@@ -99,7 +99,7 @@
     border-radius: 100vw;
 }
 .wall::-webkit-scrollbar-thumb{
-    background-color: beige;
+    background-color: white;
     border-radius: 100vw;
     border: 0.2vw solid black;
 }
