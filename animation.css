@@ -1,5 +1,5 @@
 @keyframes sliding-fadein{
-    from {translate: 60vw;}
+    from {translate: 100vw;}
     0%{opacity: 0;}
 }
 @keyframes arrowhead{
