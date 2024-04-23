@@ -73,3 +73,32 @@
 .right-section a:hover {
     transform: scale(1.2);
 }
+
+@media (max-width: 600px){
+    .header{
+        height: 10vw;
+    }
+    .left-section{
+        font-size: 2vw;
+        width: 14vw;
+        height: 2.2vw;
+        padding-top: 2vw;
+        margin-left: 2vw;
+        padding-left: 2vw;
+    }
+    .AB-text{
+        font-size: 4vw;
+    }
+    .middle-section{
+        font-size: 1.8vw;
+        width: 5vw;
+        white-space: nowrap;
+    }
+    .right-section{
+        width: 22vw;
+    }
+    .right-section a {
+        font-size: 2.1vw;
+        padding: 0.8vw;
+    }
+}
