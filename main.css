@@ -67,7 +67,7 @@
 .arrow-head{
     position: absolute;
     right: 3vw;
-    top: 2.5vw;
+    top: 4vw;
     font-size: 2.5vw;
     animation-name: arrowhead;
     animation-duration: 1.5s;
@@ -171,5 +171,11 @@
     .end pre {
         margin-top: 10vw;
         font-size: 2.1vw;
+    }
+    .arrow-head{
+        top: 20vw;
+    }
+    .wall {
+        margin-bottom: 15vw;
     }
 }
