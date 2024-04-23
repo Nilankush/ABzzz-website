@@ -23,7 +23,7 @@
   
 }
 .abzzz-fixed-text span {
-    font-size: 11vw;
+    font-size: 300%;
     font-weight: 100;
 
 }
@@ -31,6 +31,7 @@
     width: 100%;
     position: relative;
     margin: 0;
+    mask-image: linear-gradient(rgb(255, 255, 255, 1) 70%, rgb(255, 255, 255, 0));
 }
 .watermark1 {
     position: absolute;
@@ -134,4 +135,41 @@
     justify-content: center;
     line-height: 6vw;
     font-size: 1.5vw;
+}
+
+@media (max-width:600px){
+    .scrolling-page-pic1{
+        height: 95vw;
+        object-fit: cover;
+    }
+    .abzzz-fixed-text{
+        font-size: 3.5vw;
+    }
+    .web-of-fame {
+        margin-top: -1vw;
+    }
+    .web-of-fame h1 {
+        font-size: 3.3vw;
+        font-weight: 500;
+        margin-top: 10vw;
+    }
+    .web-of-fame h2 {
+        font-size: 2.5vw;
+    }
+    .web-of-fame img {
+        height: 40vw;
+        width: 12vw;
+        border-radius: 6vw;
+        margin-top:8vw
+    }
+    .web-of-fame img:hover {
+        width: 64vw;
+    }
+    .blank-space{
+        margin-left: 41vw;
+    }
+    .end pre {
+        margin-top: 10vw;
+        font-size: 2.1vw;
+    }
 }
