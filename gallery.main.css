@@ -67,3 +67,43 @@ body{
     top: 0;
     left: 100%;
 }
+
+@media (max-width:600px) {
+    body{
+        padding-top: 20vw;
+    }
+    .holi{
+        width: 52vw;
+        height: 103vw;
+        margin-left: 20vw;
+
+    }
+    .holi div {
+        width: 35vw;
+        height: 35vw;
+    }
+    .holi img{
+        width: 35vw;
+        height: 35vw;
+    }
+    .diamond1{
+        left: 0;
+        top: 0%;
+    }
+    .diamond2{
+        left: 50%;
+        top: 25%;
+    }
+    .diamond3{
+        left: 0;
+        top: 50%;
+    }
+    .diamond4{
+        left: 50%;
+        top: 75%;
+    }
+    .diamond5{
+        left: 0;
+        top: 100%;
+    }
+}
